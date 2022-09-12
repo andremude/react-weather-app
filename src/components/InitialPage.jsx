@@ -1,5 +1,5 @@
 import React from 'react'
-import Clouds from "../../public/images/initial-image.jpg"
+import Clouds from "../images/initial-image.jpg"
 
 const InitialPage = () => {
   return (

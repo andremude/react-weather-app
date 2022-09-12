@@ -1,0 +1,23 @@
+.search-bar {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.search-bar-child {
+  border-radius: 20px 20px 0 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#searchBtn {
+  border: 2px solid white;
+  border-radius: 0px 5px 5px 0px;
+  width: 100px;
+}
+
+#searchBtn:hover {
+  transform: scale(1.05);
+}

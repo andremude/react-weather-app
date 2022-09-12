@@ -1,0 +1,24 @@
+.initial-image-container {
+  width: 400px;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 0 0 20px 20 px;
+  position: relative;
+}
+
+.initial-image {
+  border-radius: 0 0 20px 20px;
+  height: 570px;
+  width: 400px;
+}
+
+.top-header-image {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 15%;
+  left: 25%;
+}

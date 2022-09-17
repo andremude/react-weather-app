@@ -21,4 +21,9 @@
   justify-content: center;
   top: 15%;
   left: 25%;
+  color: white
+}
+
+.soft {
+  font-weight: 300;
 }

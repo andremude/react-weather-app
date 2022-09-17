@@ -2,6 +2,8 @@ import React from 'react'
 import SearchBar from './SearchBar'
 import InitialPage from './InitialPage'
 import CurrentWeather from './CurrentWeather'
+import Forecast from './Forecast'
+import '../styles/Main.css'
 import { useState } from 'react';
 import { REACT_APP_API_URL } from './Api'
 
@@ -33,10 +35,11 @@ const Main = () => {
   console.log(forecast)
 
   return (
-    <div>
+    <div className="main-container">
       <SearchBar submitSearch={getWeather}/>
       {!currentWeather && <InitialPage />}
       {currentWeather && <CurrentWeather  data={currentWeather}/>}
+      {forecast && <Forecast data={forecast}/>}
     </div>
   )
 }

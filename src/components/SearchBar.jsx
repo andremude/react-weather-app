@@ -8,7 +8,7 @@ const SearchBar = ({ submitSearch }) => {
 
   const getCity = (cityInput) => {
     return fetch(
-      `${REACT_APP_GEOCITIES_API_URL}/cities?minPopulation=10000&namePrefix=${cityInput}`,
+      `${REACT_APP_GEOCITIES_API_URL}/cities?minPopulation=100000&namePrefix=${cityInput}`,
       geoCitiesOptions
     )
       .then((response) => response.json())
@@ -36,6 +36,7 @@ const SearchBar = ({ submitSearch }) => {
       value={search}
       onChange={handleOnChange}
       loadOptions={getCity}
+      debounceTimeout={800}
     />
   );
 };

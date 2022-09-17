@@ -1,0 +1,50 @@
+/* .temperature-icon-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+.current-weather-container {
+  padding: 20px;
+}
+
+/* .weather-icon {
+  background-color: rgb(158, 158, 152);
+  border-radius: 25px;
+} */
+
+.temperature-number {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+.weather-description {
+  margin:0
+}
+
+.temperatures-min-max {
+  margin: 0;
+}
+
+.temperatures-container {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.example2 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(214, 214, 209);
+  padding: 16px 32px;
+  border-radius: 25px;
+}
+
+.weather-description {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 2px 4px;
+}

@@ -11,7 +11,7 @@
 }
 
 .weather-container {
-  background-image: url("https://images.unsplash.com/photo-1590372648787-fa5a935c2c40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+  background-image: url("../images/weather-background.jpg");
   background-size: cover;
   border-radius: 0 0 20px 20px;
 }

@@ -18,18 +18,21 @@
   color: white;
 }
 
-.forecast-icon {
-  width: 50px;
-  height: 60px;
-  color: white;
-}
-
 .week-day {
   font-weight: bold;
   margin-bottom: 5px;
   text-decoration: underline;
+  margin: 0
+}
+
+.forecast-icon {
+  width: 50px;
+  height: 60px;
+  color: white;
+  margin: 0
 }
 
 .forecast-temperature {
   font-weight: bold;
+  margin: 0
 }

@@ -19,6 +19,7 @@ const Main = () => {
     const getCurrentWeather = fetch(`${REACT_APP_API_URL}/weather?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_API_KEY}&units=metric`);
 
     const getForecast = fetch(`${REACT_APP_API_URL}/forecast?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_API_KEY}&units=metric`)
+    // const getForecast = fetch(`${REACT_APP_API_URL}/onecall?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_API_KEY}&units=metric`)
 
     Promise.all([getCurrentWeather, getForecast])
       .then(async (response) => {
@@ -37,10 +38,13 @@ const Main = () => {
   return (
     <div className="main-container">
       <SearchBar submitSearch={getWeather}/>
-      {!currentWeather && <InitialPage />}
-      {currentWeather && <CurrentWeather  data={currentWeather}/>}
-      {forecast && <Forecast data={forecast}/>}
+        {!currentWeather && <InitialPage />}
+        <div className='main-weather-container'>
+          {currentWeather && <CurrentWeather  data={currentWeather}/>}
+          {forecast && <Forecast data={forecast}/>}
+        </div>
     </div>
   )
-}
+};
+
 export default Main

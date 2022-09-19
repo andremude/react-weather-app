@@ -1,16 +1,22 @@
 .initial-image-container {
-  width: 400px;
   margin: 0 auto;
-  object-fit: cover;
-  border-radius: 0 0 20px 20 px;
+  border-radius: 0 0 20px 20px;
   position: relative;
+  background-color: #e0d8d8;
+  height: 500px;
+  width: 400px;
+  min-width: 400px;
+  max-height: 500px;
+  min-height: 500px;
+  background-image: url("../images/initial-image.jpg");
+  background-size: cover;
 }
 
-.initial-image {
+/* .initial-image {
   border-radius: 0 0 20px 20px;
-  height: 570px;
-  width: 400px;
-}
+  margin: 0;
+  object-fit: cover;
+} */
 
 .top-header-image {
   position: absolute;

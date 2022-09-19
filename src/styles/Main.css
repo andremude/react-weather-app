@@ -2,11 +2,17 @@
   border-radius: 0 0 20px 20px;
   box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
   background-color: whitesmoke;
-  width: 100%;
   width: 400px;
   min-width: 400px;
+  max-height: 500px;
   min-height: 500px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 50px auto;
+}
+
+.main-weather-container {
+  background-image: url("https://images.unsplash.com/photo-1590372648787-fa5a935c2c40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+  background-size: cover;
+  border-radius: 0 0 20px 20px;
 }

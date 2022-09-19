@@ -13,7 +13,7 @@ const Forecast = ({ data }) => {
         {data.list.splice(0, 4).map((item, idx) => (
           <div className="forecast-item-container" key={idx}>
             <label className="week-day">{forecastDays[idx]}</label>
-            <img src={`icons/${item.weather[0].icon}.png`} className="forecast-icon" alt="weather" />
+            <img src={`icons/${item.weather[0].icon}.svg`} className="forecast-icon" alt="weather" />
             <label className="forecast-temperature">{Math.round(item.main.temp)}°C</label>
           </div>
         ))}

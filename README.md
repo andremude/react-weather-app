@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+## Setup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  Clone project: `git@github.com:andremude/react-weather-app.git`
+
+  run `npm install`
+
+  At `.env` file set:
+    `REACT_APP_API_KEY` from `https://api.openweathermap.org/data/2.5`
+    `REACT_APP_GEOCITIES_API_KEY` from `https://wft-geo-db.p.rapidapi.com/v1/geo`
+
+## Dependencies 
+<ul>
+  <li>"@emotion/react": "^11.10.4"</li>
+  <li>"@emotion/styled": "^11.10.4"</li>
+  <li>"@mui/icons-material": "^5.10.3"</li>
+  <li>"@mui/material": "^5.10.4"</li>
+  <li>"@testing-library/jest-dom": "^5.16.5"</li>
+  <li>"@testing-library/react": "^13.3.0"</li>
+  <li>"@testing-library/user-event": "^13.5.0"</li>
+  <li>"dotenv": "^16.0.2"</li>
+  <li>"react": "^18.2.0"</li>
+  <li>"react-dom": "^18.2.0"</li>
+  <li>"react-icons": "^4.4.0"</li>
+  <li>"react-scripts": "5.0.1"</li>
+  <li>"react-select": "^5.4.0"</li>
+  <li>"react-select-async-paginate": "^0.6.2"</li>
+</ul>    
 
 ## Available Scripts
 
@@ -39,32 +63,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Screenshots!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[weather-app](https://github.com/andremude/react-weather-app/assets/71613801/1de349d8-2c7a-4844-a780-1dceec920b95)

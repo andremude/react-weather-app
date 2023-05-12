@@ -67,4 +67,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Screenshots!
 
-[weather-app](https://github.com/andremude/react-weather-app/assets/71613801/1de349d8-2c7a-4844-a780-1dceec920b95)
+![weather-app](https://github.com/andremude/react-weather-app/assets/71613801/68d4bebe-1488-4341-98a8-9e9cb5af4256)

@@ -5,7 +5,9 @@
   run `npm install`
 
   At `.env` file set:
+  
     `REACT_APP_API_KEY` from `https://api.openweathermap.org/data/2.5`
+    
     `REACT_APP_GEOCITIES_API_KEY` from `https://wft-geo-db.p.rapidapi.com/v1/geo`
 
 ## Dependencies 
